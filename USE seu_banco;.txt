@@ -1,0 +1,10 @@
+//se não etiver criado
+create database spring-react
+
+USE seu_banco;
+
+CREATE TABLE produtos (
+    codigo BIGINT(250) AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    marca VARCHAR(255)
+);
